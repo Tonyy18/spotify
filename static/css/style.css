@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+html, body {
+    height: 100%;
+}
+h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100%;
+}
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 15px 20px;
+    outline: none;
+    text-decoration: none;
+}
+.btn .loader {
+    height: 15px;
+    width: 15px;
+}
+.btn-green {
+    background-color: #29B044;
+    color: white;
+}
+.app-container {
+    height: calc(100% - 110px);
+    margin: 0 auto;
+}
+.footer {
+    height: 110px;
+    background-color: #F3F3F3;
+    font-size: 0px;
+    padding: 15px;
+    display: flex;
+    align-items: stretch;
+}
+.footer .footer-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.footer .footer-left .album {
+    height: 100%;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.footer .footer-left .artist-data .song {
+    font-size: 18px;
+}
+.footer .footer-left .artist-data p {
+    margin: 2px 0;
+}
+
+.footer .player {
+    width: 700px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer .player .play-buttons {
+    font-size: 0px;
+}
+.footer .player .play-buttons span {
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    margin: 2px;
+}
+.footer .player .player-progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer .player .player-progress span {
+    font-size: 13px;
+}
+.footer .player .player-progress .progress-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+    height: 5px;
+    background-color: #DADADA;
+}
+.footer .player .player-progress .progress-bar .progress {
+    background-color: black;
+    height: 100%;
+    width: 0%;
+}
+.footer .footer-right {
+    height: 100%;
+    flex: 1;
+}
